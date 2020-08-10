@@ -15,7 +15,7 @@ class ResultMovieDetailsEntity {
   String country;
   String awards;
   String poster;
-  List<ResultMoviesRatings> ratings;
+  List<ResultMoviesRatingsEntity> ratings;
   String metascore;
   String imdbRating;
   String imdbVotes;

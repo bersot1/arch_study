@@ -1,6 +1,7 @@
+import 'package:arch_example_movies/domain/core/entities/result_movie_details_entity.dart';
 import 'package:arch_example_movies/infra/models/result_movie_ratings_model.dart';
 
-class ResultMovieDetailsModel {
+class ResultMovieDetailsModel extends ResultMovieDetailsEntity {
   String title;
   String year;
   String rated;

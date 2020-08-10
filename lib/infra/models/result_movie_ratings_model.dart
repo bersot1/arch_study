@@ -1,6 +1,9 @@
 import 'dart:convert';
 
-class ResultMoviesRatingsModel {
+import 'package:arch_example_movies/domain/core/entities/result_movie_details_entity.dart';
+import 'package:arch_example_movies/domain/core/entities/result_movie_ratings_entity.dart';
+
+class ResultMoviesRatingsModel extends ResultMoviesRatingsEntity {
   String source;
   String value;
 
